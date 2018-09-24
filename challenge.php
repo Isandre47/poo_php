@@ -15,7 +15,7 @@ class Personne{
     }
     // affichage du nom et prénom adresse date
     public function afficher(){
-        $affichage = $this->nom  . ' ' . $this->prenom . ' ' . $this->adresse . ' ' . $this->date . '<br>';
+        $affichage = $this->nom  . '<br>' . $this->prenom . '<br>' . $this->adresse . '<br>' . $this->date . '<br>';
         return $affichage;
     }
     // modification de l'adresse
